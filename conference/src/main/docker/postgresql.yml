@@ -1,0 +1,11 @@
+version: '2'
+services:
+  conference-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/conference/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=conference
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

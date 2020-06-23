@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.emard"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "microservice",
+    "baseName": "conference",
+    "packageName": "com.emard",
+    "packageFolder": "com/emard",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OGZlYTBmYzNmY2I5NzMwZjUxNmFlYjljZmJhYjdjMjE5NTU0NWM1MjFiOGZkZGZiYTY3M2NiZjVjY2M3ODI1NjViMjA2YzVjZWFlMDIyN2UwZDVmMWI1MzNkMTBjMzk0NTM3ZTk5OGYwNzdjNjQwZjQyMjkwNDEwOTk4YWY5NmY=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1588770740227,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
